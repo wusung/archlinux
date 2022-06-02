@@ -2,8 +2,9 @@
 
 pacman -Syu base linux linux-firmware \
  amd-ucode networkmanager iw wpa_supplicant \
- grub efibootmgr os-prober ntfs-3g bluez pulseaudio-alsa \
- pulseaudio-bluetooth 
+ grub efibootmgr \
+ # os-prober ntfs-3g \
+ bluez pulseaudio-alsa pulseaudio-bluetooth \
  # mesa xf86-video-intel intel-media-driver libva-intel-driver \ # Intel GPU
  mesa xf86-video-amdgpu libva-mesa-driver mesa-vdpau \ # AMD GPU
  firefox microsoft-edge-stable-bin \
