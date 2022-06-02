@@ -6,7 +6,7 @@ pacstrap /mnt base linux linux-firmware \
  pulseaudio-bluetooth mesa xf86-video-intel intel-media-driver \
  libva-intel-driver chromium firefox ttf-freefont \
  ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts \
- sudo vim git base-devel \
+ sudo vim git base-devel sddm \
 # lxdm lxde lxterminal  # LXDE
 # sddm plasma konsole   # KDE
  gdm gnome gnome-terminal # GNOME
