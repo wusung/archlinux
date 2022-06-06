@@ -5,6 +5,8 @@
 # grub efibootmgr os-prober ntfs-3g bluez pulseaudio-alsa \
 # pulseaudio-bluetooth mesa xf86-video-intel intel-media-driver \
 # libva-intel-drive
+
+pacman -Syu --noconfirm community/open-vm-tools
  
 # Utilities
 pacman -Syu --noconfirm firefox \
