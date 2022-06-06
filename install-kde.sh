@@ -7,6 +7,6 @@
 # libva-intel-drive
  
 # Utilities
-pacman -Syu r firefox ttf-freefont \
+pacman -Syu firefox ttf-freefont \
  ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts \
  sudo vim git base-devel fish 
