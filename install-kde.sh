@@ -7,6 +7,9 @@
 # libva-intel-drive
  
 # Utilities
-pacman -Syu --noconfirm firefox ttf-freefont \
- ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts community/ttf-jetbrains-mono  \
+pacman -Syu --noconfirm firefox \
  sudo vim git base-devel fish 
+
+pacman -Syu --noconfirm ttf-freefont \
+ ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts community/ttf-jetbrains-mono
+ 
