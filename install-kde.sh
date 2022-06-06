@@ -16,4 +16,4 @@ pacman -Syu --noconfirm ttf-freefont \
  ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts community/ttf-jetbrains-mono
  
 
-pacman -Syu --noconfirm latte-dock 
+pacman -Syu --noconfirm latte-dock packagekit-qt5 
