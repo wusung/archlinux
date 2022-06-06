@@ -17,3 +17,8 @@ pacman -Syu --noconfirm ttf-freefont \
  
 
 pacman -Syu --noconfirm latte-dock packagekit-qt5 
+
+
+# Meta - Add Alt-F1 to shortcut
+kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
+qdbus org.kde.KWin /KWin reconfigure
