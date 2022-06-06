@@ -8,5 +8,5 @@
  
 # Utilities
 pacman -Syu --noconfirm firefox ttf-freefont \
- ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts \
+ ttf-roboto noto-fonts noto-fonts-emoji noto-fonts-cjk adobe-source-code-pro-fonts community/ttf-jetbrains-mono  \
  sudo vim git base-devel fish 
