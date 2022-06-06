@@ -26,3 +26,5 @@ qdbus org.kde.KWin /KWin reconfigure
 
 # flutter development
 pacman -Syu --noconfirm clang cmake ninja-build pkg-config gtk3 xz unzip
+
+aurman -Syu google-chrome
