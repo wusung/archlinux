@@ -23,7 +23,7 @@ kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "
 qdbus org.kde.KWin /KWin reconfigure
 
 # flutter development
-pacman -Syu --noconfirm clang cmake ninja-build pkg-config gtk3 xz unzip
+pacman -Syu --noconfirm clang cmake ninja pkg-config gtk3 xz unzip
 
 chsh -s /usr/bin/fish archlinux
 
