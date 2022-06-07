@@ -27,6 +27,11 @@ pacman -Syu --noconfirm clang cmake ninja pkg-config gtk3 xz unzip
 
 chsh -s /usr/bin/fish archlinux
 
+
+# VMWare tools
+pacman -Syu --noconfirm open-vm-tools gtkmm3
+
+
 # aurman
 #git clone https://aur.archlinux.org/aurman.git
 #cd aurman
