@@ -37,4 +37,5 @@ pacman -Syu --noconfirm open-vm-tools gtkmm3
 #cd aurman
 #makepkg -si --noconfirm
 
-#aurman -Syu  --noconfirm google-chrome
+#aurman -Syu  --noconfirm google-chrome visual-studio-code-bin
+
