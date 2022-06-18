@@ -1,6 +1,6 @@
 # Chromium development
 
-build/install-build-deps.sh --no-chromeos-font
+build/install-build-deps.sh --no-chromeos-fonts
 
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig:/usr/lib/pkgconfig
 
