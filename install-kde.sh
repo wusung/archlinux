@@ -6,7 +6,7 @@
 # pulseaudio-bluetooth mesa xf86-video-intel intel-media-driver \
 # libva-intel-drive
 
-pacman -Syu --noconfirm community/open-vm-tools
+pacman -Su --noconfirm open-vm-tools xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
  
 # Utilities
 pacman -Syu --noconfirm firefox \
