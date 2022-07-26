@@ -23,6 +23,6 @@ unzip JetBrainsMono-2.242.zip
 mkdir -p ~/.fonts/
 mv fonts/ttf/*.ttf $HOME/.local/share/fonts
 pushd
-fc-cache
+fc-cache -rv
 
 build/linux/sysroot_scripts/install-sysroot.py --arch=amd64
